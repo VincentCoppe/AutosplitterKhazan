@@ -1,0 +1,14 @@
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\bin\Release\net8.0\AutosplitterKhazan.exe
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\bin\Release\net8.0\AutosplitterKhazan.deps.json
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\bin\Release\net8.0\AutosplitterKhazan.runtimeconfig.json
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\bin\Release\net8.0\AutosplitterKhazan.dll
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\bin\Release\net8.0\AutosplitterKhazan.pdb
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\obj\Release\net8.0\AutosplitterKhazan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\obj\Release\net8.0\AutosplitterKhazan.AssemblyInfoInputs.cache
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\obj\Release\net8.0\AutosplitterKhazan.AssemblyInfo.cs
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\obj\Release\net8.0\AutosplitterKhazan.csproj.CoreCompileInputs.cache
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\obj\Release\net8.0\AutosplitterKhazan.dll
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\obj\Release\net8.0\refint\AutosplitterKhazan.dll
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\obj\Release\net8.0\AutosplitterKhazan.pdb
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\obj\Release\net8.0\AutosplitterKhazan.genruntimeconfig.cache
+C:\Users\vince\Desktop\AutosplitterKhazan\AutosplitterKhazan\obj\Release\net8.0\ref\AutosplitterKhazan.dll

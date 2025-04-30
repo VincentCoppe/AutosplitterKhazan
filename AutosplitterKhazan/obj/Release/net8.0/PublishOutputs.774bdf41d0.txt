@@ -1,0 +1,5 @@
+C:\Users\vince\Desktop\AutoSplitter\AutosplitterKhazan.exe
+C:\Users\vince\Desktop\AutoSplitter\AutosplitterKhazan.dll
+C:\Users\vince\Desktop\AutoSplitter\AutosplitterKhazan.deps.json
+C:\Users\vince\Desktop\AutoSplitter\AutosplitterKhazan.runtimeconfig.json
+C:\Users\vince\Desktop\AutoSplitter\AutosplitterKhazan.pdb

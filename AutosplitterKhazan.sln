@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutosplitterKhazan", "AutosplitterKhazan\AutosplitterKhazan.csproj", "{0FD688B0-57E3-4271-AD52-5086F46A4C21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FD688B0-57E3-4271-AD52-5086F46A4C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD688B0-57E3-4271-AD52-5086F46A4C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD688B0-57E3-4271-AD52-5086F46A4C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD688B0-57E3-4271-AD52-5086F46A4C21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9572F05-E83A-47C1-8A26-1AE1D579A4CB}
+	EndGlobalSection
+EndGlobal
