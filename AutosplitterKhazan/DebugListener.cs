@@ -116,7 +116,7 @@ namespace AutoSplitterKhazan
                     if (output.Contains(crevasse)){
                         InTheMainMenu = false;
                         InTheCrevasse = true;
-                        Console.WriteLine("going in the crevasse");
+                        
                         InLoadingScreen = true;
                         //if (TimerStarted) SendCommand("pausegametime");
                     } 
@@ -124,7 +124,7 @@ namespace AutoSplitterKhazan
                     {
                         InTheMainMenu = false;
                         InTheCrevasse = false;
-                        Console.WriteLine("going in a level");
+                        
                         InLoadingScreen = true;
                        // if (TimerStarted) SendCommand("pausegametime");
                     }
@@ -132,7 +132,7 @@ namespace AutoSplitterKhazan
                     //Check If we go back to the mainMenu 
                     if (output.Contains(mainMenu))
                     {
-                        Console.WriteLine("Main Menu we Should Reset");
+                        
                         InTheMainMenu = true;
                         SendCommand("reset");
                         TimerStarted = false;
@@ -141,7 +141,7 @@ namespace AutoSplitterKhazan
                     //when we get the control of the player It mean we aren't in a loading screen anymore
                     if (output.Contains(controlThePlayer))
                     {
-                        Console.WriteLine("Player Spawned");
+                        
                         if (InLoadingScreen && TimerStarted)
                         {
                           //  SendCommand("unpausegametime");
@@ -150,7 +150,7 @@ namespace AutoSplitterKhazan
                         //If we aren't in the Crevice when We get control of the characters then we can start the timer
                         if (!InTheCrevasse && !TimerStarted)
                         {
-                            Console.WriteLine("starting timer");
+                            
                             SendCommand("setgametime 0:00:00.000");
                             SendCommand("switchto gametime");
                             SendCommand("start");
@@ -163,7 +163,7 @@ namespace AutoSplitterKhazan
                     {
                         if (output.Contains("BBQ: OnDie") && output.Contains(boss))
                         {
-                            Console.WriteLine("Boss defeated! Splitting!");
+                            
                             
                             SendCommand($"setgametime {SendGetCommand("getcurrentgametime")}");
                             SendCommand("split");
@@ -182,7 +182,7 @@ namespace AutoSplitterKhazan
                         if (output.Contains(endCutscene))
                         {
                             hasreachedend = false;
-                            Console.WriteLine("End Reached");
+                            
                             SendCommand($"setgametime {SendGetCommand("getcurrentgametime")}");
                             SendCommand("split");
                         }
@@ -207,8 +207,7 @@ namespace AutoSplitterKhazan
                 {
                     writer.WriteLine(command);
                     writer.Flush();
-                    var answer = reader.ReadLine();
-                    Console.WriteLine((answer != null) ? answer : "no answer");
+                    var answer = reader.ReadLine();                   
                     return (answer!=null) ? answer : "";
                     
                 }
